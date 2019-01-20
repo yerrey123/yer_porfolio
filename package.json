@@ -1,0 +1,14 @@
+{
+  "name": "yer",
+  "version": "1.0.0",
+  "description": "Responsive website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o yer1/css/ --recursive"
+  },
+  "author": "yeremia reynaldo",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
