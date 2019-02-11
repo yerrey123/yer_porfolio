@@ -19,6 +19,7 @@
       margin-bottom: 1rem;
     }
   }
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -41,9 +42,20 @@
 
     .portrait {
       background: url(/yer1/img/profilepic.png);
+      background-size: 150px;
       width: 150px;
       height: 150px;
     }
+  }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
   }
 }
 // Smartphones
