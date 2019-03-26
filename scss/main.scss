@@ -29,6 +29,8 @@ h3 {
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
+
+// Animations wording text
 .sm-heading {
   animation: types 5s steps(41);
   overflow: hidden;
@@ -90,7 +92,7 @@ main {
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
 }
-// Work/projects
+// Work projects
 
 .projects {
   display: grid;
